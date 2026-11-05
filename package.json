@@ -1,0 +1,17 @@
+{
+  "name": "sae-live-radar-website",
+  "version": "1.3.0",
+  "private": true,
+  "description": "SAE RADAR sales website with Mercado Pago Checkout Pro Orders and Neon PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}
